@@ -95,6 +95,45 @@ export const navLinks = [
       ],
     },
     {
+      title: 'PingMe - Real-time Chat application',
+      desc: 'Ping Me is a modern real-time chat application built with React, Node.js, and Socket.IO, featuring a responsive design with Tailwind CSS and seamless user experience.',
+      subdesc:
+        'Leveraging Socket.IO for real-time messaging and notifications, Ping Me ensures instant communication with a sleek interface and robust backend support for secure and efficient messaging.',
+      href: 'https://fullstack-chat-app-xoai.onrender.com/',
+      texture: '/textures/project/pingMe.mp4',
+      logo: '/assets/meetme.png',
+      logoStyle: {
+        backgroundColor: '#60f5a1',
+        background:
+          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        border: '0.2px solid rgba(208, 213, 221, 1)',
+        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      },
+      spotlight: '/assets/spotlight3.png',
+      tags: [
+        {
+          id: 1,
+          name: 'JavaScript',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'NodeJS',
+          path: 'assets/nodejs.png',
+        },
+        {
+          id: 2,
+          name: 'MongoDB',
+          path: 'assets/mongoDb.png',
+        },
+        {
+          id: 3,
+          name: 'socket.io',
+          path: '/assets/socket_io_logo_icon_144874.webp',
+        },
+      ],
+    },
+    {
       title: 'Craftr - A Blogging Website',
       desc: 'It is a React-based blogging platform that uses Redux and JavaScript, utilizing Appwrite as Backend-as-a-Service. It’s a role-based web app with a Twitter-like feel, designed for seamless user interactions.',
       subdesc:
@@ -165,6 +204,7 @@ export const navLinks = [
         },
       ],
     },
+    
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -183,7 +223,7 @@ export const navLinks = [
       id: 1,
       name: 'Tech Tools & Stack',
       pos: 'Building my toolkit as I grow',
-      title: "Skilled in JavaScript, React.js, Appwrite, Tailwind CSS, and more. Have a good grasp of Git and Github while working with my projects. Constantly expanding my knowledge with modern frameworks (Clerk, Appwrite, and a few more) to stay updated with the latest trends in web development.",
+      title: "MERN stack (MongoDB, Express.js, React.js, Node.js) and real-time communication using Socket.IO. Git, GitHub, Appwrite (BAAS),and frontend libraries like Clerk, TanStack Query, Zustand, Redux Toolkit, ShadCN, daisyUi etc.",
       icon: '/assets/tech.avif',
       animation: 'victory',
     },

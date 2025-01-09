@@ -29,7 +29,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Sameer Singh</p>
               <p className="grid-subtext"> 
-              A Emerging FullStack developer with experience in JavaScript, ReactJS, and Appwrite. Skilled in creating responsive interfaces and delivering high-quality web solutions.
+              A FullStack developer with experience in JavaScript Frameworks and libraries including both Backend and Frontend. Knows how to create responsive interfaces and deliver high-quality web solutions.
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@ const About = () => {
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="assets/grid2.png"
+              src="assets/newgrid2.png"
               alt="grid-2"
               className="w-full rounded-2xl sm:h-[276px] h-fit object-cover"
             />
