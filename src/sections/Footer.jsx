@@ -11,7 +11,7 @@ const Footer = () => {
           <a href="https://github.com/SamVerse" target="_blank" className="social-icon">
             <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
           </a>
-          <a href="https://twitter.com/" target="_blank" className="social-icon">
+          <a href="https://x.com/SameerS65019846" target="_blank" className="social-icon">
             <img  src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
           </a>
           <a href="https://www.linkedin.com/in/sameersingh19/" target="_blank" className="w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border-none border-black-200;">
