@@ -57,7 +57,7 @@ const Miscellaneous = () => {
                     <p className="text-sm mb-5">{item.pos}</p>
                     {item.id === 2 ? (
                        <a
-                       href="/Resume.pdf" // path to the PDF file in public folder
+                       href="/resume.pdf" // path to the PDF file in public folder
                        download="Sameer_Singh_Resume.pdf" // filename when downloading
                        className="group-hover:text-white transition-all ease-in-out duration-500"
                      >
