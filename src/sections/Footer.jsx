@@ -19,7 +19,7 @@ const Footer = () => {
           </a>
         </div>
   
-        <p className="text-white-500">© 2024 Sameer Singh. All rights reserved.</p>
+        <p className="text-white-500">© 2026 Sameer Singh. All rights reserved.</p>
       </footer>
     );
   };

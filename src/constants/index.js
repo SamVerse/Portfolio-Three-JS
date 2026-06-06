@@ -21,41 +21,6 @@ export const navLinks = [
     },
   ];
   
-  // export const clientReviews = [
-  //   {
-  //     id: 1,
-  //     name: 'Emily Johnson',
-  //     position: 'Marketing Director at GreenLeaf',
-  //     img: 'assets/review1.png',
-  //     review:
-  //       'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-  //   },
-  //   {
-  //     id: 2,
-  //     name: 'Mark Rogers',
-  //     position: 'Founder of TechGear Shop',
-  //     img: 'assets/review2.png',
-  //     review:
-  //       'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  //   },
-  //   {
-  //     id: 3,
-  //     name: 'John Dohsas',
-  //     position: 'Project Manager at UrbanTech ',
-  //     img: 'assets/review3.png',
-  //     review:
-  //       'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  //   },
-  //   {
-  //     id: 4,
-  //     name: 'Ether Smith',
-  //     position: 'CEO of BrightStar Enterprises',
-  //     img: 'assets/review4.png',
-  //     review:
-  //       'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  //   },
-  // ];
-  
   export const myProjects = [
     {
       title: 'Snapgram - A Social Media Platform',
@@ -91,6 +56,53 @@ export const navLinks = [
           id: 3,
           name: 'Appwrite',
           path: '/assets/appwrite.png',
+        },
+      ],
+    },
+    {
+      title: 'CreateKit - AI-Powered Content Platform',
+      desc: 'A full-stack AI-powered web application that enables authenticated users to generate, manage, publish, and share AI-generated content and images, with resume analysis and image processing workflows like background and object removal.',
+      subdesc:
+        'Built with React 19, TypeScript, Node.js, Express 5, and NeonDB (Serverless PostgreSQL), CreateKit combines AI generation capabilities with structured content management, Clerk authentication, and Cloudinary-backed cloud media storage.',
+      href: 'https://create-kit-front.vercel.app/',
+      texture: '/textures/project/create-kit.mp4',
+      logo: '/assets/create-kit-logo.svg',
+      logoStyle: {
+        backgroundColor: '#0f0f1a',
+        border: '0.2px solid #2a2a4a',
+        boxShadow: '0px 0px 60px 0px #6c63ff4D',
+      },
+      spotlight: '/assets/spotlight4.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 3,
+          name: 'Node.js',
+          path: '/assets/nodejs.png',
+        },
+        {
+          id: 4,
+          name: 'OpenAI',
+          path: '/assets/openai.svg',
+        },
+        {
+          id: 5,
+          name: 'Clerk',
+          path: '/assets/clerk.svg',
+        },
+        {
+          id: 6,
+          name: 'Cloudinary',
+          path: '/assets/cloudinary.png',
         },
       ],
     },
@@ -223,7 +235,7 @@ export const navLinks = [
       id: 1,
       name: 'Tech Tools & Stack',
       pos: 'Building my toolkit as I grow',
-      title: "MERN stack (MongoDB, Express.js, React.js, Node.js) and real-time communication using Socket.IO. Git, GitHub, Appwrite (BAAS),and frontend libraries like Clerk, TanStack Query, Zustand, Redux Toolkit, ShadCN, daisyUi etc.",
+      title: "MERN Stack (MongoDB, Express.js, React.js, Node.js), TypeScript, and scalable backend development. Git, GitHub, PostgreSQL, Redis, Docker, Appwrite, Clerk, TanStack Query, Zustand, Redux Toolkit, ShadCN UI, DaisyUI, NextAuth.js, Better Auth, and modern deployment workflows.",
       icon: '/assets/tech.avif',
       animation: 'victory',
     },

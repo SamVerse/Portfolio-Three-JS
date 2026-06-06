@@ -29,7 +29,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Sameer Singh</p>
               <p className="grid-subtext"> 
-              A FullStack developer with experience in JavaScript Frameworks and libraries including both Backend and Frontend. Knows how to create responsive interfaces and deliver high-quality web solutions.
+              A FullStack developer with experience in JS/TS Frameworks and libraries including both Backend and Frontend. Knows how to create responsive interfaces and deliver high-quality web solutions.
               </p>
             </div>
           </div>
@@ -46,8 +46,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools
-                that allow me to build robust and scalable applications
+                I leverage a modern full-stack ecosystem of technologies, frameworks, and tools to build performant, scalable, and user-centric digital experiences.
               </p>
             </div>
           </div>
